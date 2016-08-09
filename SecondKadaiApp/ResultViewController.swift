@@ -22,11 +22,11 @@ class ResultViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
     
-    let string = "x"
+    
+    var string = "x"
     label.text = "こんにちは\(string) さん"
-}
+
 
     /*
     // MARK: - Navigation
@@ -37,3 +37,5 @@ class ResultViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    }
+}

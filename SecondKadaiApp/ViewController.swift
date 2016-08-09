@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {@IBAction func unwind(segue: UIStoryboardSegue) {
     }
+    @IBOutlet weak var text: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +25,7 @@ class ViewController: UIViewController {@IBAction func unwind(segue: UIStoryboar
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
         let resultViewController:ResultViewController = segue.destinationViewController as! ResultViewController
 
-        resultViewController.x = 1
+        resultViewController.x = text.text!
 
     }
 }

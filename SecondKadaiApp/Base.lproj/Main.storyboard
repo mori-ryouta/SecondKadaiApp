@@ -49,6 +49,9 @@
                             <constraint firstItem="1Vd-yP-cEE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="75" id="xnU-IO-uIq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="text" destination="1Vd-yP-cEE" id="ogZ-H2-VjY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

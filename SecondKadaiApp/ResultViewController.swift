@@ -11,9 +11,11 @@ import UIKit
 class ResultViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
-    var x:Int = 0
+    var x:String = ""
 
     override func viewDidLoad() {
+        var string = x
+        label.text = "こんにちは\(string) さん"
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -24,8 +26,6 @@ class ResultViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     
     
-    var string = "x"
-    label.text = "こんにちは\(string) さん"
 
 
     /*
